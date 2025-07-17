@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moumou Laundry</title>
+  <style>
+    .hanging-logo {
+      width: 100%;
+      text-align: center;
+      margin-bottom: -20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .hanging-logo img {
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .banner {
+      background-color: #fdf267;
+      padding: 10px 20px;
+      text-align: center;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+    }
+
+    .hanging-photo {
+      width: 100%;
+      text-align: center;
+      margin-top: -10px;
+    }
+
+    .hanging-photo img {
+      max-width: 180px;
+      /* ukuran maksimal */
+      height: auto;
+      object-fit: contain;
+      margin: 10px auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hanging-logo">
+    <img src="Laundry-stempel.png" alt="Logo Moumou Laundry">
+  </div>
+
+  <div class="banner">
+    🎉 NEW MEMBER GRATIS ONGKIR 1 BULAN 🎉
+  </div>
+
+</body>
+
+</html>
+
+
+<body>
+
+  <div class="hanging-photo">
+    <img src="Logo-MouMou 2.jpg" alt="Logo Moumou Laundry">
+  </div>
+
+  <div class="bubble">
+    <h2>📍</h2>
+    <h3>Bukit Dieng Blok AA1</h3>
+    <a href="https://maps.app.goo.gl/e1YKFLJs1vEnUXe6A" target="_blank">Lihat di Google Maps</a>
+  </div>
+
+</body>
+
+</html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Laundry - Bukit Dieng</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f3ccff, #e0b3ff);
+    font-family: 'Poppins', sans-serif;
+    color: #4b0082;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .bubble {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    position: relative;
+    animation: fadeInUp 1s ease both;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    color: #7e22ce;
+  }
+
+  .title-banner {
+    background: #a855f7;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #c084fc;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact a {
+    background: #c084fc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .contact a:hover {
+    background: #a855f7;
+  }
+
+  .bubble-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .bubble-animation span {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: floatUp 12s ease-in-out infinite;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+  }
+
+  @keyframes floatUp {
+    0% {
+      transform: translateY(100vh) scale(0.6);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.9;
+    }
+
+    100% {
+      transform: translateY(-10vh) scale(1.8);
+      opacity: 0;
+    }
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7e22ce;
+    margin: 2rem 0;
+  }
+</style>
+</head>
+
+<body>
+
+  <div class="title-banner">
+    🎉 NEW MEMBER GRATIS ONGKIR 1 BULAN 🎉
+  </div>
+
+  <div class="bubble-animation">
+    <!-- Gelembung sabun -->
+    <span style="left: 5%; animation-delay: 0s;"></span>
+    <span style="left: 15%; animation-delay: 2s;"></span>
+    <span style="left: 25%; animation-delay: 4s;"></span>
+    <span style="left: 35%; animation-delay: 1s;"></span>
+    <span style="left: 45%; animation-delay: 3s;"></span>
+    <span style="left: 55%; animation-delay: 5s;"></span>
+    <span style="left: 65%; animation-delay: 0.5s;"></span>
+    <span style="left: 75%; animation-delay: 2.5s;"></span>
+    <span style="left: 85%; animation-delay: 1.5s;"></span>
+    <span style="left: 95%; animation-delay: 3.5s;"></span>
+  </div>
+
+  <div class="bubble">
+    <h1><a href="https://maps.app.goo.gl/e1YKFLJs1vEnUXe6A" target="_blank"
+        style="text-decoration: none; color: #7e22ce;">✨ Bukit Dieng AA-1 ✨</a></h1>
+  </div>
+
+  <div class="bubble">
+    <h2>📦 Regular Kiloan</h2>
+    <ul>
+      <li>Setrika: Rp 3K/kg</li>
+      <li>Cuci kering & lipat: Rp 3K/kg</li>
+      <li>Cuci & setrika: Rp 5K/kg</li>
+    </ul>
+  </div>
+
+  <div class="bubble">
+    <h2>💧 Medium Kiloan</h2>
+    <ul>
+      <li>Cuci kering & lipat: Rp 5K/kg</li>
+      <li>Cuci & setrika: Rp 7K/kg</li>
+    </ul>
+  </div>
+
+  <div class="bubble">
+    <h2>🗓️ Paket Bulanan</h2>
+    <strong>Regular:</strong>
+    <ul>
+      <li>Setrika: Rp 60K</li>
+      <li>Cuci kering & lipat: Rp 60K</li>
+      <li>Cuci & setrika: Rp 100K</li>
+    </ul>
+    <strong>Medium:</strong>
+    <ul>
+      <li>Cuci kering & lipat: Rp 100K</li>
+      <li>Cuci & setrika: Rp 150K</li>
+    </ul>
+  </div>
+
+  <div class="bubble">
+    <h2>🧺 Paket Satuan</h2>
+    <ul>
+      <li>Kaos: Rp 6K</li>
+      <li>Kemeja: Rp 9K</li>
+      <li>Dress: Rp 13K</li>
+      <li>Gamis: Rp 21K</li>
+      <li>Blouse: Rp 15K</li>
+      <li>Celana Pendek: Rp 6K</li>
+      <li>Celana Panjang: Rp 9K</li>
+      <li>Jaket: Rp 18K</li>
+      <li>Jas: Rp 22K</li>
+      <li>Mukena: Rp 15K</li>
+      <li>Kerudung: Rp 5K</li>
+      <li>Handuk Besar: Rp 12K</li>
+      <li>Seprai Single: Rp 13K</li>
+      <li>Seprai Queen: Rp 15K</li>
+      <li>Seprai King: Rp 17K</li>
+      <li>Bed Cover Single: Rp 25K</li>
+      <li>Bed Cover Queen: Rp 28K</li>
+      <li>Bed Cover King: Rp 33K</li>
+      <li>Gorden Kecil: Rp 10K</li>
+      <li>Gorden Besar: Rp 20K</li>
+    </ul>
+  </div>
+
+
+  <div class="bubble contact">
+    <p>Hubungi kami via WhatsApp:</p>
+    <a href="https://wa.me/6283866600996" target="_blank">Chat Sekarang</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Laundry Bukit Dieng. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
